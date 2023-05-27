@@ -1,0 +1,111 @@
+.home_div {
+	padding: 12% 10%;
+}
+
+.home_div_1 {
+	text-align: center;
+	padding: 0 5%;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 5%;
+}
+
+.image_div {
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	margin: 0 5%;
+	border-radius: 50%;
+
+	background-image: url('../assets/bakugo.jpg');
+	background-size: cover;
+}
+
+.home_div_1 h1 {
+	font-size: 3rem;
+	font-weight: 800;
+	margin-bottom: 1%;
+}
+
+.home_div_1 h3 {
+	font-size: 1.4rem;
+	font-weight: bold;
+	width: 65%;
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 2%;
+}
+
+.home_div_1 p {
+	font-size: 1.2rem;
+	font-weight: 600;
+	width: 65%;
+	margin: 2% auto;
+	color: #343a40;
+}
+
+.home_action_div {
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+
+.home_action_div a {
+	font-size: 1.2rem;
+	color: #6c757d;
+	font-weight: 500;
+}
+
+.home_action_div a:hover {
+	font-size: 1.2rem;
+	color: #343a40;
+	cursor: pointer;
+}
+
+.home_icons {
+	font-size: 1.3rem;
+	color: #6c757d;
+}
+
+/* Styles for mobile */
+@media only screen and (max-width: 480px) {
+	/* Your mobile-specific styles go here */
+	.home_div {
+		padding: 20% 0%;
+	}
+
+	.home_div_1 h1 {
+		font-size: 2rem;
+		font-weight: 800;
+		margin-bottom: 5%;
+	}
+
+	.home_div_1 h3 {
+		font-size: 1.2rem;
+		font-weight: bold;
+		width: 100%;
+		display: inline-block;
+		margin: 0 auto;
+		margin-bottom: 2%;
+	}
+
+	.image_div {
+		width: 200px;
+		height: 200px;
+	}
+
+	.home_action_div {
+		display: block;
+		width: 100%;
+		margin-top: 5%;
+	}
+
+	.home_action_div a {
+		display: block;
+		font-size: 1.1rem;
+		margin: 3% 0;
+		color: #6c757d;
+		font-weight: 500;
+	}
+}

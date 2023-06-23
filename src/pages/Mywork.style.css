@@ -1,9 +1,16 @@
 .mywork_div {
-	padding: 7% 15%;
+	padding: 7% 10%;
 	background-color: #161616;
 }
 
 .mywork_div h3 {
 	color: #f8f9fa;
+	font-size: 2rem;
 	width: fit-content;
+}
+
+.projects_div {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
 }
